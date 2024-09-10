@@ -1,0 +1,14 @@
+{
+	"UA": {
+        "ukrainian": "Українська",
+        "standard2010": "Стандарт 2010",
+        "czech": "Чеська",
+        "enterTextToTheLeft": "Введіть текст українською в поле вводу зліва"
+    },
+    "EN": {
+        "ukrainian": "Ukrainian",
+        "standard2010": "Standard 2010",
+        "czech": "Czech",
+        "enterTextToTheLeft": "Введіть текст українською в поле вводу зліва"
+    }
+}

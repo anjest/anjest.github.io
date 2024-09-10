@@ -1,25 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import * as React from 'react'
+import { Box } from '@mui/material'
+import CustomThemeProvider from './Theme/CustomThemeProvider'
+import Navbar from './Navbar/Navbar'
+import Transliterator from './Transliterator/Transliterator'
+import Footer from './Footer/Footer'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+const App = () => {
+
+  	return (
+		<Box>
+			<CustomThemeProvider>
+				<Navbar />
+				<Transliterator />
+                <Footer />
+			</CustomThemeProvider>
+		</Box>
+  	)
 }
 
 export default App;
